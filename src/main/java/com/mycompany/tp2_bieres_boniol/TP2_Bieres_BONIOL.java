@@ -13,7 +13,7 @@ public class TP2_Bieres_BONIOL {
 
     public static void main(String[] args) {
         BouteilleBiere uneBiere = new BouteilleBiere("Cuvée des trolls", 7.0 ,"Dubuisson") ;
-        uneBiere.ouverture = false ;
+        uneBiere.ouverte = false ;
         uneBiere.lireEtiquette();
         BouteilleBiere autreBiere = new BouteilleBiere("Leffe", 6.6,"Abbaye de Leffe");
         autreBiere.lireEtiquette();
