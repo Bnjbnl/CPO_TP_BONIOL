@@ -21,7 +21,7 @@ public class BouteilleBiere {
     public void lireEtiquette() {
         System.out.println("Bouteille de " + nom + " (" + degreAlcool + " degres) \nBrasserie : " + brasserie);
     }
-    
+
     /**
      * Création d'une méthode pour definir les valeurs de l'objet
      * @param unNom représente le nom de la bière
