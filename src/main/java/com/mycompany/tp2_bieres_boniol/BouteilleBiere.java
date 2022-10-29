@@ -11,7 +11,7 @@ package com.mycompany.tp2_bieres_boniol;
 public class BouteilleBiere {
 
     String nom;
-    float degreAlcool;
+    double degreAlcool;
     String brasserie;
     boolean ouverte;
 
@@ -19,3 +19,4 @@ public class BouteilleBiere {
         System.out.println("Bouteille de " + nom + " (" + degreAlcool + " degres) \nBrasserie : " + brasserie);
     }
 }
+
