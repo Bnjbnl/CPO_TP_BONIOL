@@ -16,7 +16,10 @@ public class TP2_Bieres_BONIOL {
         uneBiere.nom = "Cuvée des trolls";
         uneBiere.degreAlcool = 7.0 ;
         uneBiere.lireEtiquette();
-
+        BouteilleBiere autreBiere = new BouteilleBiere();
+        autreBiere.nom = "Leffe";
+        autreBiere.degreAlcool = 6.6;
+        autreBiere.brasserie="Abbaye de Leffe";
     
     }
 }
