@@ -12,6 +12,11 @@ package com.mycompany.tp2_bieres_boniol;
 public class TP2_Bieres_BONIOL {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        BouteilleBiere uneBiere = new BouteilleBiere() ;
+        uneBiere.nom = "Cuvée des trolls";
+        uneBiere.degreAlcool = 7.0 ;
+        uneBiere.lireEtiquette();
+
+    
     }
 }
