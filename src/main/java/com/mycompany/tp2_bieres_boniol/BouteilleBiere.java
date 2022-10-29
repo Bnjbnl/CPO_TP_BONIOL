@@ -9,9 +9,13 @@ package com.mycompany.tp2_bieres_boniol;
  * @author Benjamin
  */
 public class BouteilleBiere {
+
     String nom;
-    float degreeAlcool;
+    float degreAlcool;
     String brasserie;
     boolean ouverte;
-    
+
+    public void lireEtiquette() {
+        System.out.println("Bouteille de " + nom + " (" + degreAlcool + " degres) \nBrasserie : " + brasserie);
+    }
 }
