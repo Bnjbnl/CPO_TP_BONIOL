@@ -25,4 +25,14 @@ public class BouteilleBiere {
         brasserie = uneBrasserie;
         ouverte = false;
     }
+
+    public boolean Décapsuler() {
+        if (ouverte == false) {
+            ouverte = true;
+            return true;
+        } else {
+            System.out.println("erreur : biere déjà ouverte");
+            return false;
+        }
+    }
 }
